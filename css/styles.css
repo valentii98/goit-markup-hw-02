@@ -105,6 +105,11 @@ body {
   background: var(--accent-text-color);
   cursor: pointer;
 }
+.hero-button:hover,
+.hero-button:focus {
+    background: var(--enable-btn-color);
+    cursor: pointer;
+  }
 .button-text {
   font-family: inherit;
   font-weight: 700;
